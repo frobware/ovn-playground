@@ -1,0 +1,11 @@
+instance-id: IID-UUID
+hostname: HOSTNAME
+local-hostname: HOSTNAME
+fqdn: HOSTNAME
+manage_etc_hosts: true
+preserve_hostname: true
+network-interfaces: |
+  auto ens3
+  iface ens3 inet dhcp
+  auto ens4
+  iface ens4 inet dhcp
